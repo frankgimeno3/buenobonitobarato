@@ -36,14 +36,12 @@ const userSchema = new Schema({
 #### FoodEntry.model.js
 ```js
 const FoodEntry = new Schema({
-    title: { type: String },
+    title:  String ,
     image: String,
     description: String,
-    price: { type: Number},
+    price: Number,
      date: {
           bsonType: "date",
-    
-    
   });
 
 
